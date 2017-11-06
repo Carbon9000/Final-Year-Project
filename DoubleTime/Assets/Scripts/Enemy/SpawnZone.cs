@@ -7,7 +7,7 @@ public class SpawnZone : MonoBehaviour {
 
     [Header("Spawn Settings")]
     public int enemyThreshold;
-    public float spawnRate = 4.0f;
+    public float checkRate = 4.0f;
 
     [Header("Spawn Points")]
     public List<GameObject> spawnPoints = new List<GameObject>();
